@@ -1,3 +1,5 @@
+This is a slightly modified version to just return the deviceID from the TelephonyManager
+
 UniqueDeviceID
 ==============
 
