@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="hu.dpal.phonegap.plugins.UniqueDeviceID" 
+        id="com.guykileveryone.UniqueDeviceID" 
         version="1.0.0">
 
     <name>UniqueDeviceID</name>
@@ -21,7 +21,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="UniqueDeviceID">
-                <param name="android-package" value="hu.dpal.phonegap.plugins.UniqueDeviceID" />
+                <param name="android-package" value="com.guykileveryone.UniqueDeviceID" />
             </feature>
         </config-file>
 
